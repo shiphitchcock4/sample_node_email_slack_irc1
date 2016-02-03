@@ -39,7 +39,6 @@ integrations:
       type: slack
       recipients:
         - "#random"
-        - "#public"
       on_start: always
       on_success: always
       on_failure: always
