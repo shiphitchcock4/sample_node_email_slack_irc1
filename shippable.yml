@@ -33,6 +33,28 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+      
+  notifications:
+    - integrationName: ship_slack
+      type: slack
+      recipients:
+        - "#random"
+        - "#public"
+      on_start: always
+      on_success: always
+      on_failure: always
+    - integrationName: email
+      type: email
+      recipients:
+        - exampleone@org.com
+        - exampletwo@org.com
+      on_success: always
+      on_failure: always
+    
+    - integrationName:
+      type: irc
+      recipients
+        - "chat.freenode.net#channel1"
+        - "chat.freenode.net#channel2"
+      on_success: always
+      on_failure: always 
