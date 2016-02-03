@@ -39,8 +39,8 @@ integrations:
       type: slack
       recipients:
         - "#random"
-      on_start: never
-      on_success: always
+      on_start: always
+      on_success: never
       on_failure: always
       
     - integrationName: email    
@@ -48,14 +48,14 @@ integrations:
       recipients:
         - sreyaj10@gmail.com
         - sreya@shippable.com
-      on_start: never
-      on_success: always
+      on_start: always
+      on_success: never 
       on_failure: always
     
     - integrationName: irc   
       type: irc
       recipients:
         - "chat.freenode.net#test-irc"
-      on_start: never
-      on_success: always
+      on_start: always
+      on_success: never
       on_failure: always 
