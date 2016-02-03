@@ -38,7 +38,7 @@ integrations:
     - integrationName: ship_slack
       type: slack
       recipients:
-        - "#random"
+        - "#random" 
       on_start: always
       on_success: never
       on_failure: never
