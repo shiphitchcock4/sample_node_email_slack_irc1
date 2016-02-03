@@ -52,7 +52,7 @@ integrations:
       on_success: always
       on_failure: always
     
-    - integrationName: irc
+    - integrationName: irc   
       type: irc
       recipients:
         - "chat.freenode.net#test-irc"
