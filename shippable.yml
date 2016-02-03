@@ -43,18 +43,20 @@ integrations:
       on_start: always
       on_success: always
       on_failure: always
+      
     - integrationName: email
       type: email
       recipients:
-        - exampleone@org.com
-        - exampletwo@org.com
+        - sreyaj10@gmail.com
+        - sreya@shippable.com
+      on_start: always
       on_success: always
       on_failure: always
     
     - integrationName:
       type: irc
       recipients
-        - "chat.freenode.net#channel1"
-        - "chat.freenode.net#channel2"
+        - "chat.freenode.net#test-irc"
+      on_start: always
       on_success: always
       on_failure: always 
