@@ -44,7 +44,7 @@ integrations:
       on_success: always
       on_failure: always
       
-    - integrationName: email
+    - integrationName: email    
       type: email
       recipients:
         - sreyaj10@gmail.com
