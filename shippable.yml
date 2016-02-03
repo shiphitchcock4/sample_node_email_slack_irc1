@@ -14,7 +14,7 @@ env:
 
 build:
   pre_ci:
-    - docker build -t=shippabledocker/hitchcock4_sample_nod
+    - docker build -t=shippabledocker/hitchcock4_sample_node .
 
   pre_ci_boot:
     image_name: shippabledocker/hitchcock4_sample_node
