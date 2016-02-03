@@ -43,7 +43,7 @@ integrations:
       on_success: never
       on_failure: never
       
-    - integrationName: email    
+    - integrationName: email      
       type: email
       recipients:
         - sreyaj10@gmail.com
